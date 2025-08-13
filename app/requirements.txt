@@ -1,0 +1,6 @@
+flask==3.1.0
+pandas==2.2.3
+joblib==1.2.0
+scikit-learn==1.6.1
+hebo==0.3.6
+requests==2.31.0

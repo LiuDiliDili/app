@@ -1,0 +1,5 @@
+.vscode
+app/logs
+app/model
+app/*/*.pyc
+app/*/*/*.pyc

@@ -1,0 +1,40 @@
+{
+    "LOG_PATH": "app/logs",
+    "GA_CONFIG": {
+        "GENS": 20.0,
+        "MUTATE_RATE": 0.2,
+        "OBJECTIVES": {
+            "气体分析仪CO浓度": {
+                "max": 4000.0,
+                "min": 2000.0
+            },
+            "风室测压": {
+                "max": 7000.0,
+                "min": 4000.0
+            }
+        },
+        "POP_SIZE": 40
+    },
+    "HEBO_CONFIG": {
+        "气体分析仪CO浓度": {
+            "max": 4000.0,
+            "min": 2000.0
+        },
+        "风室测压": {
+            "max": 7000.0,
+            "min": 4000.0
+        }
+    },
+    "HEBO_ITERS": 20.0,
+    "TYPE": "max",
+    "MODEL1_NO1_28D": "app/model/1号仓1d_pred28d.joblib",
+    "MODEL1_NO1_3D": "app/model/1号仓1d_pred3d.joblib",
+    "MODEL1_NO1_7D": "app/model/1号仓1d_pred7d.joblib",
+    "MODEL1_NO2_28D": "app/model/2号仓1d_pred28d.joblib",
+    "MODEL1_NO2_3D": "app/model/2号仓1d_pred3d.joblib",
+    "MODEL1_NO2_7D": "app/model/2号仓1d_pred7d.joblib",
+    "MODEL2_NO1_3D": "app/model/1号仓_pred3d_model2.joblib",
+    "MODEL2_NO2_3D": "app/model/2号仓_pred3d_model2.joblib",
+    "MODEL3_NO1_3D": "app/model/1号仓_pred3d_model3.joblib",
+    "MODEL3_NO2_3D": "app/model/2号仓_pred3d_model3.joblib"
+}
